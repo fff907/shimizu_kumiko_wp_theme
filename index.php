@@ -7,7 +7,11 @@
   <?php if (have_posts()) : ?>
     <?php while (have_posts()) : the_post(); ?>
       <article class="mb-4">
-        <h2><?php the_title(); ?></h2>
+        <h2 class="mb-3">
+          <a href="<?php the_permalink(); ?>" class="text-decoration-none text-dark">
+            <?php the_title(); ?>
+          </a>
+        </h2>
         <div><?php the_content(); ?></div>
       </article>
     <?php endwhile; ?>
