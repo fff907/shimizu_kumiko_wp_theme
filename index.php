@@ -1,23 +1,19 @@
 <?php get_header(); ?>
 
 <main class="container mt-5">
-  <h1 class="mb-4">ようこそ！</h1>
-  <p class="mb-5">これは自作のWordPressテーマです。</p>
-
-  <?php if (have_posts()) : ?>
-    <?php while (have_posts()) : the_post(); ?>
-      <article class="mb-4">
-        <h2 class="mb-3">
-          <a href="<?php the_permalink(); ?>" class="text-decoration-none text-dark">
-            <?php the_title(); ?>
-          </a>
-        </h2>
-        <div><?php the_content(); ?></div>
-      </article>
-    <?php endwhile; ?>
-  <?php else : ?>
-    <p>記事がありませんでした。</p>
-  <?php endif; ?>
+  <section class="news" id="news">
+    <div class="section-heading">
+      <h1 class="section-title">News</h1>
+    </div>
+    
+    <div class="container">
+      <div class="news-item">
+        <div class="news-grid">
+          <!-- PHPで記事を表示させるのはこの中！ -->
+        </div>
+      </div>                  
+    </div>     
+  </section>
 </main>
 
 <?php get_footer(); ?>
