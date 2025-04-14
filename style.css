@@ -4,3 +4,127 @@ Author: fff907
 Description: WordPressオリジナルテーマ。投稿一覧・詳細を自作で表示。
 Version: 1.0
 */
+
+/* Newsセクション */
+.news {
+  padding: 40px 10%;
+  background-color: #D9D9D9;
+  text-align: center;
+}
+
+.news-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.news-card {
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+  gap: 15px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.news-card img {
+  width: 150px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+  flex-shrink: 0;
+}
+
+.news-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-grow: 1;
+  justify-content: space-between;
+}
+
+.news-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+}
+
+.news-date {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 5px;
+}
+
+.news-card h3 {
+  font-size: 18px;
+  margin: 0;
+  text-align: left;
+  flex-grow: 1;
+  white-space: normal;
+  overflow: visible;
+  text-overflow: unset;
+  max-width: 100%;
+  margin-right: 20px;
+}
+
+.read-more {
+  display: inline-block;
+  background: #007BFF;
+  color: white;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 8px 16px;
+  border-radius: 5px;
+  transition: background 0.2s;
+  min-width: 100px;
+  text-align: center;
+  align-self: center;
+  margin-left: auto;
+}
+
+.read-more:hover {
+  background: #0056b3;
+}
+
+/* レスポンシブ（モバイル対応） */
+@media (max-width: 768px) {
+  .news-info {
+    flex-direction: column;
+  }
+
+  .news-date {
+    font-size: 10px;
+  }
+
+  .news-card {
+    flex-direction: column;
+    text-align: center;
+    height: 350px;
+    padding: 20px;
+  }
+
+  .news-card img {
+    width: 230px;
+    height: 140px;
+    margin-bottom: 5px;
+  }
+
+  .news-card h3 {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .read-more {
+    font-size: 12px;
+    padding: 6px 12px;
+    min-width: 90px;
+    margin: 0 auto;
+  }
+}
