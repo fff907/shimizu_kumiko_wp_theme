@@ -1,41 +1,4 @@
-<!DOCTYPE html>
-<html lang="ja">
-
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kumiko Shimizu Official Site</title>
-    <meta name="description" content="清水久美子の公式サイトです。">
-    <!-- CSS -->
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
-    <!-- Adobeフォント -->
-    <script>
-      (function(d) {
-        var config = {
-          kitId: 'jek6ulg',
-          scriptTimeout: 3000,
-          async: true
-        },
-        h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
-      })(document);
-    </script>
-    <!-- リセットCSS -->
-    <link rel="stylesheet" href="https://unpkg.com/ress@4.0.0/dist/ress.min.css">
-    <link rel="stylesheet" href="./css/style.css">
-    <!-- Font Awesome -->
-    <script src="https://kit.fontawesome.com/905f598671.js" crossorigin="anonymous"></script>
-    <!-- favicon -->
-    <link rel="icon" type="image/png" href="images/icon-192x192.png">
-    <link rel="apple-touch-icon" type="image/png" href="images/apple-touch-icon-180x180.png">
-    <link rel="icon" href="images/favicon.ico">
-  </head>
-
-  <body>
-    <!-- ヘッダー -->
-    <?php get_header(); ?>
+ <?php get_header(); ?>
 
     <!-- カバー -->
     <section class="cover">
@@ -556,13 +519,4 @@
       </section>
 　　</main>
     
-　　<!-- フッター -->
-　　<?php get_footer(); ?>
-
-　　<!-- JS -->
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="crossorigin="anonymous"></script>
-    <script src="./js/hamburger.js"></script>
-    <script src="./js/accordion.js"></script>
-    <script src="./js/article.js"></script>
-  </body>
-</html>
+<?php get_footer(); ?>
