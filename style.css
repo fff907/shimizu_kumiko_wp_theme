@@ -422,7 +422,7 @@ img {
     height: auto;
     max-height: 100vh;
     color: #fff;
-    background-image: url(../images/cover_bg.png);
+    background-image: url('images/cover_bg.png');
     aspect-ratio: 16 / 9;
     background-size: contain;
     background-position: center center;
