@@ -511,8 +511,16 @@
           <div class="contact-item">
             <p class="contact_description">お仕事のご依頼、ご連絡は、GmailまたはXのリプ欄からお願いいたします。</p>
             <ul class="contact_button">
-              <li class="gmail"><a href="mailto:mandkshimizu@gmail.com"><img src="images/gmail_icon.png" alt="gmailのアイコン"></a></li>
-              <li class="X"><a href="https://twitter.com/KumikoShimizuWP"><img src="images/X_icon.png" alt="xのアイコン"></a></li>
+              <li class="gmail">
+               <a href="mailto:mandkshimizu@gmail.com">
+                 <img src="<?php echo get_template_directory_uri(); ?>/images/gmail_icon.png" alt="gmailのアイコン">
+               </a>
+             </li>
+             <li class="X">
+               <a href="https://twitter.com/KumikoShimizuWP">
+                 <img src="<?php echo get_template_directory_uri(); ?>/images/X_icon.png" alt="xのアイコン">
+               </a>
+             </li>
             </ul>
           </div>                   
         </div>     
