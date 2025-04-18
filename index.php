@@ -5,7 +5,7 @@
     </section>
 
     <!-- メイン -->
-    <main class="container mt-5">
+    <main>
       <!-- Works -->
       <section class="works" id="works">
         <div class="section-heading">
@@ -474,7 +474,7 @@
          </div>
       </section>
       
-　　　<!-- News -->
+      <!-- News -->
       <section class="news" id="news">
         <div class="section-heading">
           <h1 class="section-title">News</h1>
@@ -485,7 +485,7 @@
             <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
               <div class="news-card">
                 <?php if (has_post_thumbnail()) : ?>
-                  <img src="<?php echo get_the_post_thumbnail_url(null, 'medium'); ?>" alt="<?php the_title_attribute(); ?>">
+                  <?php the_post_thumbnail('medium'); ?>
                 <?php endif; ?>
     
                 <div class="news-info">
@@ -511,7 +511,7 @@
           <div class="contact-item">
             <p class="contact_description">お仕事のご依頼、ご連絡は、GmailまたはXのリプ欄からお願いいたします。</p>
             <ul class="contact_button">
-              <li class="gmail"><a href="mailto: mandkshimizu@gmail.com"><img src="images/gmail_icon.png" alt="gmailのアイコン"></a></li>
+              <li class="gmail"><a href="mailto:mandkshimizu@gmail.com"><img src="images/gmail_icon.png" alt="gmailのアイコン"></a></li>
               <li class="X"><a href="https://twitter.com/KumikoShimizuWP"><img src="images/X_icon.png" alt="xのアイコン"></a></li>
             </ul>
           </div>                   
