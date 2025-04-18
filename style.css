@@ -156,7 +156,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(../images/cover_sp.png);
+  background-image: url('images/cover_sp.png');
   height: auto;
   aspect-ratio: 3 / 5; /* 高さの目安比率。画像に合わせて調整してOK */
   background-size: contain;
