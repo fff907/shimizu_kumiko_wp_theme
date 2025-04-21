@@ -479,7 +479,7 @@
         <div class="section-heading">
           <h1 class="section-title">News</h1>
         </div>
-    
+      
         <div class="news-item">
           <div class="news-grid">
             <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
@@ -487,7 +487,7 @@
                 <?php if (has_post_thumbnail()) : ?>
                   <?php the_post_thumbnail('medium'); ?>
                 <?php endif; ?>
-    
+      
                 <div class="news-info">
                   <div class="news-title">
                     <p class="news-date"><?php the_time('Y-m-d'); ?></p>
@@ -496,7 +496,13 @@
                   <a href="<?php the_permalink(); ?>" class="read-more">続きを読む</a>
                 </div>
               </div>
-            <?php endwhile; endif; ?>
+            <?php endwhile; ?>
+      
+              <div class="pagination">
+                <?php the_posts_pagination(); ?>
+              </div>
+      
+            <?php endif; ?>
           </div> <!-- /.news-grid -->
         </div> <!-- /.news-item -->
       </section>
