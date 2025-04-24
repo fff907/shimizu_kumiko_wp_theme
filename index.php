@@ -486,7 +486,7 @@
             query_posts(array(
               'posts_per_page' => get_option('posts_per_page'),
               'orderby' => 'date',
-              'order' => 'ASC',
+              'order' => 'DESC',
               'paged' => get_query_var('paged') ? get_query_var('paged') : 1
             ));
       
