@@ -367,6 +367,18 @@ img {
   pointer-events: none;
 }
 
+.pagination .prev,
+.pagination .next {
+  background-color: white;
+  color: #333;
+  border: 1px solid #ccc;
+}
+
+.pagination .prev:hover,
+.pagination .next:hover {
+  background-color: #f2f2f2;
+}
+
 /* Contactセクション */
 .contact_description {
   margin: 0 1.1875rem;
