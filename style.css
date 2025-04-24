@@ -201,7 +201,6 @@ img {
   transition: background-color 0.3s ease;
 }
 
-/* ホバー時に色を変更 */
 .works-category summary:hover {
   background-color: #f0f0f0;
 }
@@ -336,6 +335,36 @@ img {
 
 .read-more:hover {
   background: #0056b3;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.pagination a,
+.pagination span {
+  display: inline-block;
+  padding: 8px 14px;
+  background-color: #007BFF;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.pagination a:hover {
+  background-color: #0056b3;
+}
+
+.pagination .current {
+  background-color: #0056b3;
+  pointer-events: none;
 }
 
 /* Contactセクション */
