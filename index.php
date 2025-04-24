@@ -482,7 +482,15 @@
       
         <div class="news-item">
           <div class="news-grid">
-            <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+            <?php
+            query_posts(array(
+              'posts_per_page' => get_option('posts_per_page'),
+              'orderby' => 'date',
+              'order' => 'ASC',
+              'paged' => get_query_var('paged') ? get_query_var('paged') : 1
+            ));
+      
+            if (have_posts()) : while (have_posts()) : the_post(); ?>
               <div class="news-card">
                 <?php if (has_post_thumbnail()) : ?>
                   <?php the_post_thumbnail('medium'); ?>
@@ -498,11 +506,15 @@
               </div>
             <?php endwhile; ?>
       
-              <div class="pagination">
-                <?php the_posts_pagination(); ?>
-              </div>
+            <div class="pagination">
+              <?php the_posts_pagination(array(
+                'mid_size' => 1,
+                'prev_text' => '← 前へ',
+                'next_text' => '次へ →',
+              )); ?>
+            </div>
       
-            <?php endif; ?>
+            <?php endif; wp_reset_query(); ?>
           </div> <!-- /.news-grid -->
         </div> <!-- /.news-item -->
       </section>
