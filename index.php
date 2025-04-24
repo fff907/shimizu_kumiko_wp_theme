@@ -501,7 +501,14 @@
                     <p class="news-date"><?php the_time('Y-m-d'); ?></p>
                     <h3><?php the_title(); ?></h3>
                   </div>
+                 <?php
+                  $external_url = get_post_meta(get_the_ID(), 'external_url', true);
+                  if ($external_url) :
+                ?>
+                  <a href="<?php echo esc_url($external_url); ?>" class="read-more" target="_blank" rel="noopener">続きを読む</a>
+                <?php else : ?>
                   <a href="<?php the_permalink(); ?>" class="read-more">続きを読む</a>
+                <?php endif; ?>
                 </div>
               </div>
             <?php endwhile; ?>
