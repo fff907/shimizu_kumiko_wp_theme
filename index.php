@@ -511,6 +511,7 @@
                 'mid_size' => 1,
                 'prev_text' => '← 前へ',
                 'next_text' => '次へ →',
+                'add_fragment'  => '#news',
               )); ?>
             </div>
       
