@@ -1,4 +1,66 @@
- <?php get_header(); ?>
+<!DOCTYPE html>
+<html lang="ja">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kumiko Shimizu Official Site</title>
+    <meta name="description" content="清水久美子の公式サイトです。">
+    <!-- CSS -->
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <!-- Adobeフォント -->
+    <script>
+      (function(d) {
+        var config = {
+          kitId: 'jek6ulg',
+          scriptTimeout: 3000,
+          async: true
+        },
+        h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+      })(document);
+    </script>
+    <!-- リセットCSS -->
+    <link rel="stylesheet" href="https://unpkg.com/ress@4.0.0/dist/ress.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/905f598671.js" crossorigin="anonymous"></script>
+    <!-- favicon -->
+    <link rel="icon" type="image/png" href="images/icon-192x192.png">
+    <link rel="apple-touch-icon" type="image/png" href="images/apple-touch-icon-180x180.png">
+    <link rel="icon" href="images/favicon.ico">
+  </head>
+
+  <body>
+    <!-- ヘッダー -->
+    <header class="header">
+      <div class="header-inner">
+        <h1 class="header-logo">
+          <a href=".">KUMIKO SHIMIZU</a>
+        </h1>
+        <div class="hamburger-button"><i class="fas fa-bars" aria-label="menu"></i></div>
+
+        <!-- SPナビゲーション -->
+        <nav class="sp-nav">
+          <ul class="sp-nav-list">
+            <li><a href="#works">Works</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        
+        <!-- PCナビゲーション -->
+        <nav class="pc-nav">
+          <ul class="pc-nav-list">
+            <li><a href="#works">Works</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
     <!-- カバー -->
     <section class="cover">
@@ -149,6 +211,17 @@
                   <li>ジョシュ・ホワイトハウス</li>
                   <li>ジェニファー・ビールス</li>
                   <li>グレン・クローズ</li>
+                  <li>キアヌ・リーヴス</li>
+                  <li>マッツ・ミケルセン</li>
+                  <li>ライアン・ゴズリング</li>
+                  <li>リンダ・ハミルトン</li>
+                  <li>エル・ファニング</li>
+                  <li>アンセル・エルゴート</li>
+                  <li>ジョディ・スウィーティン</li>
+                  <li>キャンディス・キャメロン・ブレ</li>
+                  <li>アンドリア・バーバー</li>
+                  <li>ボブ・サゲット</li>
+                  <li>デイブ・クーリエ</li>
                   <li>マシュー・グレイ・ギュブラー</li>
                   <li>リチャード・アーミティッジ</li>
                   <li>アーミー・ハマー</li>
@@ -298,6 +371,7 @@
                   <li>キム・ジェウォン</li>
                   <li>キム・レウォン</li>
                   <li>カン・ドンウォン</li>
+                  <li>キム・ゴウン</li>
                   <li>チ・ジニ</li>
                   <li>チャン・ヒョク</li>
                   <li>ユン・ゲサン</li>
@@ -322,7 +396,6 @@
                   <li>チェ・ガンヒ</li>
                   <li>イム・ウンギョン</li>
                   <li>パク・チビン</li>
-                  <li>カン・ドンウォン</li>
                   <li>エリック</li>
                   <li>ヘソン</li>
                   <li>ミヌ</li>
@@ -382,12 +455,44 @@
                   <li>佐藤二朗</li>
                   <li>中村倫也</li>
                   <li>池松壮亮</li>
+                  <li>舘ひろし</li>
+                  <li>柴田恭兵</li>
+                  <li>寺尾聰</li>
+                  <li>玉木宏</li>
+                  <li>豊川悦司</li>
+                  <li>山﨑賢人</li>
+                  <li>鈴木亮平</li>
+                  <li>古田新太</li>
+                  <li>長谷川博己</li>
+                  <li>板垣李光人</li>
+                  <li>高橋文哉</li>
+                  <li>藤原大祐</li>
+                  <li>窪塚愛流</li>
+                  <li>清水尋也</li>
+                  <li>荒木飛羽</li>
+                  <li>木村拓哉</li>
+                  <li>ジェシー</li>
+                  <li>猪狩蒼弥</li>
+                  <li>羽村仁成</li>
+                  <li>田中圭</li>
+                  <li>三山凌輝</li>
+                  <li>金子大地</li>
                   <li>飯島寛騎</li>
                   <li>つるの剛士</li>
                   <li>駿河太郎</li>
                   <li>井上正大</li>
                   <li>清塚信也</li>
                   <li>大地真央</li>
+                  <li>松坂慶子</li>
+                  <li>真矢ミキ</li>
+                  <li>松雪泰子</li>
+                  <li>寺島しのぶ</li>
+                  <li>高岡早紀</li>
+                  <li>綾瀬はるか</li>
+                  <li>杉本彩</li>
+                  <li>河合優実</li>
+                  <li>伊藤万理華</li>
+                  <li>祷キララ</li>
                   <li>草刈民代</li>
                   <li>中嶋朋子</li>
                   <li>菊地凜子</li>
@@ -470,63 +575,31 @@
                 </ul>
               </div>
             </details>
+        
           </div>
          </div>
       </section>
-      
+
       <!-- News -->
       <section class="news" id="news">
         <div class="section-heading">
           <h1 class="section-title">News</h1>
         </div>
-      
-        <div class="news-item">
-          <div class="news-grid">
-            <?php
-            query_posts(array(
-              'posts_per_page' => get_option('posts_per_page'),
-              'orderby' => 'date',
-              'order' => 'DESC',
-              'paged' => get_query_var('paged') ? get_query_var('paged') : 1
-            ));
-      
-            if (have_posts()) : while (have_posts()) : the_post(); ?>
-              <div class="news-card">
-                <?php if (has_post_thumbnail()) : ?>
-                  <?php the_post_thumbnail('medium'); ?>
-                <?php endif; ?>
-      
-                <div class="news-info">
-                  <div class="news-title">
-                    <p class="news-date"><?php the_time('Y-m-d'); ?></p>
-                    <h3><?php the_title(); ?></h3>
-                  </div>
-                 <?php
-                  $external_url = get_post_meta(get_the_ID(), 'external_url', true);
-                  if ($external_url) :
-                ?>
-                  <a href="<?php echo esc_url($external_url); ?>" class="read-more" target="_blank" rel="noopener">続きを読む</a>
-                <?php else : ?>
-                  <a href="<?php the_permalink(); ?>" class="read-more">続きを読む</a>
-                <?php endif; ?>
-                </div>
-              </div>
-            <?php endwhile; ?>
-      
-            <div class="pagination">
-              <?php the_posts_pagination(array(
-                'mid_size' => 1,
-                'prev_text' => '← 前へ',
-                'next_text' => '次へ →',
-                'add_fragment'  => '#news',
-              )); ?>
+        
+        <div class="container">
+          <div class="news-item">
+            <div class="news-grid">
+              <!-- JavaScriptでここに記事を追加 -->
             </div>
-      
-            <?php endif; wp_reset_query(); ?>
-          </div> <!-- /.news-grid -->
-        </div> <!-- /.news-item -->
+            
+            <!-- もっと見るボタン -->
+            <div class="news-more">
+              <button id="loadMore">もっと見る</button>
+            </div>
+          </div>                   
+        </div>     
       </section>
-
+          
       <!-- コンタクト -->
       <section class="contact" id="contact">
         <div class="section-heading">
@@ -537,20 +610,25 @@
           <div class="contact-item">
             <p class="contact_description">お仕事のご依頼、ご連絡は、GmailまたはXのリプ欄からお願いいたします。</p>
             <ul class="contact_button">
-              <li class="gmail">
-               <a href="mailto:mandkshimizu@gmail.com">
-                 <img src="<?php echo get_template_directory_uri(); ?>/images/gmail_icon.png" alt="gmailのアイコン">
-               </a>
-             </li>
-             <li class="X">
-               <a href="https://twitter.com/KumikoShimizuWP">
-                 <img src="<?php echo get_template_directory_uri(); ?>/images/X_icon.png" alt="xのアイコン">
-               </a>
-             </li>
+              <li class="gmail"><a href="mailto: mandkshimizu@gmail.com"><img src="images/gmail_icon.png" alt="gmailのアイコン"></a></li>
+              <li class="X"><a href="https://twitter.com/KumikoShimizuWP"><img src="images/X_icon.png" alt="xのアイコン"></a></li>
             </ul>
           </div>                   
         </div>     
       </section>
-　　</main>
-    
-<?php get_footer(); ?>
+    </main>
+          
+    <!-- フッター -->
+    <footer class="footer">
+      <div class="footer-copyright">
+        <small>©︎2025 Shimizu Kumiko All Rights Reserved.</small>
+      </div>
+    </footer>
+          
+    <!-- JS -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="crossorigin="anonymous"></script>
+    <script src="./js/hamburger.js"></script>
+    <script src="./js/accordion.js"></script>
+    <script src="./js/article.js"></script>
+  </body>
+</html>
