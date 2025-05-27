@@ -25,3 +25,7 @@
 - accordion.js：アコーディオン用（Vanilla JS、現在は未使用）
 
 jQuery使用とVanilla JSの使い分けを意識し、状況に応じたUI実装が可能です。
+
+## 🌐 公開URL
+
+📌 **WordPress化したサイトはこちら → [http://news-portfolio.rf.gd/wp/]**
