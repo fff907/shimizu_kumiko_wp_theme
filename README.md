@@ -7,7 +7,7 @@
 
 ## 📂 ファイル構成
 
-- `index.php`：投稿一覧ページ（Newsセクション） ※ `the_posts_pagination()` を用いてページ送り機能を実装済
+- `index.php`：投稿一覧ページ（Newsセクション） ※ `the_posts_pagination()` を用いてページ送り機能を実装
 - `single.php`：投稿詳細ページ（※現在は各記事のリンクが外部ページに向いているため未使用）
 - `header.php` / `footer.php`：共通レイアウト構成
 - `style.css`：テーマ情報とスタイル定義
