@@ -2,7 +2,7 @@
 
 ## ✅ 使用技術
 - WordPressオリジナルテーマ開発
-- PHP / HTML / CSS / Bootstrap
+- PHP / HTML / CSS
 - GitHubと連携、ローカル環境（Local）構築済
 
 ## 📂 ファイル構成
