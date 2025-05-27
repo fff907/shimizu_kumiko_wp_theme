@@ -22,7 +22,7 @@
 本テーマには、以下の自作JavaScriptが同梱されています。
 
 - hamburger.js：ハンバーガーメニュー用（jQuery使用）
-- accordion.js：アコーディオン用（Vanilla JS、現在は未使用）
+- accordion.js：アコーディオン用（Vanilla JS、**Worksセクションで使用中**）
 
 jQuery使用とVanilla JSの使い分けを意識し、状況に応じたUI実装が可能です。
 
