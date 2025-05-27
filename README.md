@@ -23,8 +23,13 @@
 
 - hamburger.js：ハンバーガーメニュー用（jQuery使用）
 - accordion.js：アコーディオン用（Vanilla JS、**Worksセクションで使用中**）
+- article.js：記事追加表示用（Vanilla JS、現在は未使用）
 
-jQuery使用とVanilla JSの使い分けを意識し、状況に応じたUI実装が可能です。
+※元々は静的サイトで「もっと見る」ボタンにより追加の記事を表示する目的で作成。  
+現在のWordPressテーマでは `the_posts_pagination()` によるページネーションを採用しているため使用していませんが、  
+将来的にカスタムUIやAjax対応の読み込み機能を実装する際に活用できるよう保持しています。
+
+※jQuery使用とVanilla JSの使い分けを意識し、状況に応じたUI実装が可能です。
 
 ## 🌐 公開URL
 
