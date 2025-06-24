@@ -17,8 +17,7 @@ html {
 body {
   font-family: "sans-serif", sans-serif;
   font-style: normal;
-  font-size: .9375rem;
-  /* 15px */
+  font-size: 0.9375rem;
   font-weight: 400;
   letter-spacing: 0.05em;
   line-height: 1.5;
@@ -87,7 +86,6 @@ img {
   z-index: 100;
   height: 3.75rem;
   padding: 0 0 0 1.25rem;
-  /* ロゴ部分全体の左に20px */
   box-sizing: border-box;
 }
 
@@ -146,7 +144,6 @@ img {
 
 .pc-nav-list li {
   margin: 0 0 0 3.125rem;
-  /* 左に50px */
 }
 
 /* カバー
@@ -158,7 +155,7 @@ img {
   justify-content: center;
   background-image: url('images/cover_sp.png');
   height: auto;
-  aspect-ratio: 3 / 5; /* 高さの目安比率。画像に合わせて調整してOK */
+  aspect-ratio: 3 / 5;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -181,13 +178,11 @@ img {
   overflow: hidden;
 }
 
-/* 開いているときのスタイル */
 .works-category[open] {
   box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
   transform: translateY(-2px);
 }
 
-/* サマリー（クリックで開閉する部分） */
 .works-category summary {
   padding: 0.9375rem 1.25rem;
   font-size: 1.375rem;
@@ -205,27 +200,23 @@ img {
   background-color: #f0f0f0;
 }
 
-/* summary のデフォルトの矢印を非表示 */
 .works-category summary::-webkit-details-marker {
   display: none;
 }
 
-/* コンテンツの高さを自動調整（リスト全体を正しく表示） */
 .works-content {
   padding: 0.9375rem 1.25rem;
   height: 0;
-  display: none; /* デフォルトは非表示 */
+  display: none;
   transition: height 0.3s ease-out;
 }
 
-/* 開いたときは自動で全リストを表示 */
 .works-category[open] .works-content {
   height: auto;
   display: block;
   padding: 0.9375rem 1.25rem;
 }
 
-/* PCでも1カラムに統一 */
 .works-grid {
   display: grid;
   grid-template-columns: 1fr;
@@ -267,20 +258,20 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 15px;
-  border-radius: 10px;
+  padding: 0.9375rem;
+  border-radius: 0.625rem;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s ease;
-  gap: 15px;
+  gap: 0.9375rem;
   height: auto;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
 }
 
 .news-card img {
-  width: 150px;
-  height: 100px;
+  width: 9.375rem;
+  height: 6.25rem;
   object-fit: cover;
-  border-radius: 8px;
+  border-radius: 0.5rem;
   flex-shrink: 0;
 }
 
@@ -300,13 +291,13 @@ img {
 }
 
 .news-date {
-  font-size: 14px;
+  font-size: 0.875rem;
   color: #666;
-  margin-bottom: 5px;
+  margin-bottom: 0.3125rem;
 }
 
 .news-card h3 {
-  font-size: 18px;
+  font-size: 1.125rem;
   margin: 0;
   text-align: left;
   flex-grow: 1;
@@ -314,7 +305,7 @@ img {
   overflow: visible;
   text-overflow: unset;
   max-width: 100%;
-  margin-right: 20px;
+  margin-right: 1.25rem;
 }
 
 .read-more {
@@ -322,12 +313,12 @@ img {
   background: #007BFF;
   color: white;
   text-decoration: none;
-  font-size: 12px;
+  font-size: 0.75rem;
   font-weight: bold;
-  padding: 8px 16px;
-  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  border-radius: 0.3125rem;
   transition: background 0.2s;
-  min-width: 100px;
+  min-width: 6.25rem;
   text-align: center;
   align-self: center;
   margin-left: auto;
@@ -340,20 +331,20 @@ img {
 .pagination {
   display: flex;
   justify-content: center;
-  margin-top: 40px;
-  gap: 10px;
+  margin-top: 2.5rem;
+  gap: 0.625rem;
   flex-wrap: wrap;
 }
 
 .pagination a,
 .pagination span {
   display: inline-block;
-  padding: 8px 14px;
+  padding: 0.5rem 0.875rem;
   background-color: #007BFF;
   color: white;
   text-decoration: none;
-  border-radius: 6px;
-  font-size: 14px;
+  border-radius: 0.375rem;
+  font-size: 0.875rem;
   font-weight: bold;
   transition: background-color 0.3s ease;
 }
@@ -415,8 +406,7 @@ img {
 
 .footer {
   padding: 2.5rem;
-  font-size: .875rem;
-  /* 14px */
+  font-size: 0.875rem;
   text-align: center;
   color: #fff;
   background-color: #333;
@@ -487,15 +477,15 @@ img {
   }
 
   .works-category summary {
-    font-size: 14px;
+    font-size: 0.875rem;
   }
 
   .works, .news {
-    padding: 20px 0 40px 0;
+    padding: 1.25rem 0 2.5rem 0;
   }
 
   .works-list li {
-    font-size: 14px;
+    font-size: 0.875rem;
   }
 
   .news-info {
@@ -504,38 +494,38 @@ img {
   }
 
   .news-date {
-    font-size: 10px;
+    font-size: 0.625rem;
   }
 
   .news-card {
     flex-direction: column;
     text-align: center;
     height: 350px;
-    padding: 20px;
-    margin: 0 15px 20px;
+    padding: 1.25rem;
+    margin: 0 0.9375rem 1.25rem;
   }
 
   .news-card img {
-    width: 230px;
-    height: 140px;
-    margin-bottom: 5px;
+    width: 14.375rem;
+    height: 8.75rem;
+    margin-bottom: 0.3125rem;
   }
 
   .news-card h3 {
-    font-size: 14px;
+    font-size: 0.875rem;
     text-align: center;
   }
 
   .news-card .read-more {
-    font-size: 12px;
-    padding: 6px 12px;
-    min-width: 90px;
+    font-size: 0.75rem;
+    padding: 0.375rem 0.75rem;
+    min-width: 5.625rem;
     margin: 0 auto;
   }
 
   #loadMore {
-    font-size: 14px;
-    padding: 6px 16px;
+    font-size: 0.875rem;
+    padding: 0.375rem 1rem;
   }
 
   .footer {
