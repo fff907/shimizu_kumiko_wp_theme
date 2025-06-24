@@ -500,7 +500,7 @@ img {
   .news-card {
     flex-direction: column;
     text-align: center;
-    height: 350px;
+    height: 21.875rem;
     padding: 1.25rem;
     margin: 0 0.9375rem 1.25rem;
   }
