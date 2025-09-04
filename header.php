@@ -40,29 +40,29 @@
 </head>
 
 <body>
-  <header class="header">
-    <div class="header-inner">
-      <h1 class="header-logo">
-        <a href="<?php echo home_url(); ?>">KUMIKO SHIMIZU</a>
-      </h1>
-      <div class="hamburger-button"><i class="fas fa-bars" aria-label="menu"></i></div>
-
-      <!-- SPナビゲーション -->
-      <nav class="sp-nav">
-        <ul class="sp-nav-list">
-          <li><a href="#works">Works</a></li>
-          <li><a href="#news">News</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-      
-      <!-- PCナビゲーション -->
-      <nav class="pc-nav">
-        <ul class="pc-nav-list">
-          <li><a href="#works">Works</a></li>
-          <li><a href="#news">News</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
+   <!-- ヘッダー -->
+    <header class="header">
+      <div class="header-inner">
+    
+        <!-- ロゴ -->
+        <h1 class="header-logo">
+          <a href=".">KUMIKO SHIMIZU</a>
+        </h1>
+    
+        <!-- ハンバーガーメニュー（三本線ボタン） -->
+        <button class="header__hamburger" id="open" aria-label="メニューを開く">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+    
+        <!-- ナビゲーション（PC/SP共通） -->
+        <nav class="global-nav" id="overlay">
+          <ul class="nav__list">
+            <li><a href="#works">Works</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
