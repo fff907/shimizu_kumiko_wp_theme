@@ -18,6 +18,7 @@
             <!-- 海外ドラマ・映画関連 -->
             <details class="works-category">
               <summary class="works-title">海外ドラマ・映画関連の執筆活動</summary>
+                <!-- CSSでアコーディオン開閉 -->
               <div class="works-content">
                 <ul class="works-list">
                   <li>「ザ・ホワイトハウス」オフィシャル・ガイドブック（DHC / ぴあ刊）</li>
