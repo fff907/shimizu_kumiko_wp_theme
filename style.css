@@ -21,7 +21,7 @@ body {
   font-weight: 400;
   letter-spacing: 0.05em;
   line-height: 1.5;
-  background:#FFC1A9;
+  background: #FFC1A9;
   color: #333;
 }
 
@@ -73,6 +73,7 @@ img {
   top: 0;
   width: 100%;
   z-index: 100;
+  background-color: #FFC1A9;
 }
 
 .header a {
@@ -223,7 +224,6 @@ img {
   gap: 1.25rem;
 }
 
-/* リストスタイル */
 .works-list {
   list-style: none;
   padding: 0;
