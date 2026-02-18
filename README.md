@@ -29,7 +29,7 @@
 
 ## 🌐 公開URL
 
-📌 **WordPress化したサイトはこちら → [http://news-portfolio.rf.gd/wp/]**
+📌 **WordPress化したサイトはこちら → [http://news-portfolio.rf.gd/wp/] ※現在非公開** 
 
 <!-- 
 💡 補足理解メモ（自分用）
