@@ -363,8 +363,8 @@
             </details>
 
             <!-- インタビューした日本の俳優 -->
-            <details class="works-category">
-              <summary class="works-title">取材した日本の俳優・声優・アーティスト・作家・監督</summary>
+            <div class="works-category">
+              <div class="works-title toggle-btn">取材した日本の俳優・声優・アーティスト・作家・監督</div>
               <div class="works-content columns">
                 <ul class="works-list works-list-actor">
                   <li>藤竜也</li>
@@ -410,8 +410,21 @@
                   <li>清水尋也</li>
                   <li>荒木飛羽</li>
                   <li>木村拓哉</li>
-                  <li>ジェシー</li>
-                  <li>猪狩蒼弥</li>
+                  <li>ジェシー（SixTONES）</li>
+                  <li>宮舘涼太（Snow Man）</li>
+                  <li>佐久間大介（Snow Man）</li>
+                  <li>岡田将生</li>
+                  <li>松下洸平</li>
+                  <li>磯村勇斗</li>
+                  <li>水上恒司</li>
+                  <li>八木勇征（FANTASTICS）</li>
+                  <li>長谷川慎（THE RAMPAGE）</li>
+                  <li>日高由起刀</li>
+                  <li>日向亘</li>
+                  <li>越山敬達</li>
+                  <li>のせりん</li>
+                  <li>栄莉弥</li>
+                  <li>猪狩蒼弥（KEY TO LIT）</li>
                   <li>羽村仁成</li>
                   <li>田中圭</li>
                   <li>三山凌輝</li>
@@ -449,6 +462,15 @@
                   <li>佐々木希</li>
                   <li>木村文乃</li>
                   <li>新垣結衣</li>
+                  <li>広瀬すず</li>
+                  <li>堀田真由</li>
+                  <li>福本莉子</li>
+                  <li>南 琴奈</li>
+                  <li>北里琉</li>
+                  <li>菊地姫奈</li>
+                  <li>近藤華</li>
+                  <li>中野有紗</li>
+                  <li>月島琉衣</li>
                   <li>本田翼</li>
                   <li>関めぐみ</li>
                   <li>倉科カナ</li>
@@ -466,7 +488,7 @@
                   <li>中川翔子</li>
                   <li>新山千春</li>
                   <li>鳥居みゆき</li>
-                  <li>黒沢かずこ</li>
+                  <li>黒沢かずこ（森三中）</li>
                   <li>藤井隆</li>
                   <li>石田明（NON STYLE）</li>
                   <li>天野ひろゆき（キャイ～ン）</li>
@@ -513,7 +535,7 @@
                   <li>品川ヒロシ など</li>
                 </ul>
               </div>
-            </details>
+            </div>    
           </div>
          </div>
       </section>
